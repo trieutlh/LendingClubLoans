@@ -1,0 +1,77 @@
+﻿/* reset styles
+---------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{ margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; border: 0; outline: 0; /* background: transparent; */ }
+ul { list-style: none; }
+blockquote, q { quotes: none; }
+:focus { outline: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* master styles
+---------------------------------------------------------------------- */
+html { font-size: 62.5%; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 13px; font-size: 1.3rem; line-height: 1.5; color: #555; border-top: 4px solid #0084C4; background-color: #Helvetica NeueFF; }
+/* headings and paragraphs */
+h1 { padding: 0 0 10px 0; font-size: 24px; font-size: 2.4rem; line-height: 1.1; color: #CC6600; font-weight: normal;}
+h3 { padding: 0 0 8px 0; font-size: 20px; font-size: 2.0rem; color: #CC6600; font-weight: normal}
+p { padding: 0 0 10px 0; }
+/* small text spans
+---------------------------------------------------------------------- */
+.small { float: none; display: inline; font-size: 10px; font-size: 1.0rem; font-style: normal; color: #999; }
+#content a span.small, #feature .block a span.small { float: none; display: inline; border: none; color: #999; }
+#content a:hover span.small, #feature .block a:hover span.small { float: none; display: inline; border: none; }
+#content .resources a span.small, #content .resources-micro a span.small { float: none; display: inline; width: 100%; border: none; color: #999; }
+#content .resources a:hover span.small, #content .resources-micro a:hover span.small { float: none; display: inline; border: none; }
+/* content block
+---------------------------------------------------------------------- */
+#content { width: 80%; margin: auto; padding: 0 20px; }
+/* section header
+---------------------------------------------------------------------- */
+.section_header { padding: 30px 20px 50px 20px; }
+.section_header h1, #content.family .section_header h1 { padding: 0 0 3px 0; }
+.section_header h1 span { display: block; text-transform: uppercase; font-size: 1.3rem; color: #555; padding-bottom: .5rem;}
+.section_header h2, #content.family .section_header h2 { padding: 0 0 3px 0; font-size: 15px; font-size: 1.5rem; line-height: 1.3em; color: #555; font-weight: bold; }
+#content.family .section_header { padding: 0 0 11px 0; }
+/* title header
+---------------------------------------------------------------------- */
+.title_header img{ width: 40px; height: 23px; }
+.title_header h1{
+position: relative;
+}
+/* report index styles - Large List View
+---------------------------------------------------------------------- */
+#report-rack { float: left; padding: 0 0 50px 0; }
+#content #report-rack ul { float: left; width: 772px; padding: 0 0 0 0; }
+#content #report-rack li { float: left; width: 772px; margin: 0 20px 30px 0; padding: 0; line-height: 1.4; background: none; }
+#content #report-rack a { text-decoration: none; }
+#content #report-rack a h3 { font-size: 18px; font-size: 1.8rem; color: #CC6600; padding: 0 0 1px 225px; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+#content #report-rack a p { padding-left: 225px; color: #555; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+#content #report-rack a p.timestamp { padding: 0 0 6px 225px; color: #777; font-size: 10px; font-size: 1.0rem; font-weight: bold; font -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+#report-rack a span { float: left; display: block; width: 208px; margin: 0 15px 0 0; height: 125px; border: 1px solid #CC6600; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; position: relative; overflow: hidden; }
+#report-rack a img { float: left; width: 100%; height: auto; margin: 0; padding: 0; position: absolute; }
+#report-rack a:hover span { border: 1px solid #663300; }
+#content #report-rack a:hover h3 { color: #663300; }
+#content #report-rack a:hover p { color: #663300; }
+#content #report-rack a:hover p.timestamp { color: #777; }
+ \
+/* self-clear floats
+---------------------------------------------------------------------- */
+.group:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; }
+* html .group { height: 1%; } /* for IE6 */
+*:first-child+html .group { min-height: 1px; } /* for IE7 */
+/* misc
+---------------------------------------------------------------------- */
+sup { font-size: 0.5em; vertical-align: text-top; }
+.redtext { color: #CC0000; }
+.hidden { display: none; }
+.no-pad { padding-bottom: 0; }
+.min-pad { padding-bottom: 6px; }
+#content .top-pad-10 { padding-top: 10px; }
+#content .bottom-pad-10 { padding-bottom: 10px; }
+#content .top-pad { padding-top: 50px; }
+#report-rack a span#rack-0 {width: 208px; height: 106px; } 
+ #report-rack a span#rack-1 {width: 208px; height: 162px; } 
+ #report-rack a span#rack-2 {width: 208px; height: 162px; } 
+ #report-rack a span#rack-3 {width: 208px; height: 173px; } 
+ #report-rack a span#rack-4 {width: 208px; height: 162px; } 
+ #report-rack a span#rack-5 {width: 208px; height: 141px; } 
+ 
